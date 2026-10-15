@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-1",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "active": true,
+  "hostname": "rdpfree-2",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
-    "disk_free_gb": 82.9,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 31.6,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-15T10:20:59Z",
-  "expires_at": "2026-10-15T16:15:59Z",
+  "started_at": "2026-10-15T11:11:47Z",
+  "expires_at": "2026-10-15T17:06:47Z",
   "duration_menit": 355,
-  "run_id": "38719587538",
+  "run_id": "38725566732",
   "run_attempt": "1",
-  "run_number": "1",
-  "run_url": "https://github.com/vgabril28-svg/fantastic-octo-dollop/actions/runs/38719587538",
+  "run_number": "2",
+  "run_url": "https://github.com/vgabril28-svg/fantastic-octo-dollop/actions/runs/38725566732",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,69 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
+      "ip": "100.82.33.18",
       "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    },
-    "mode": "tailscale"
-  },
-  "media": {
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "microphone": "rdp_capture_enabled",
-    "audio_output": "rdp_playback_enabled"
-  },
-  "samp": {
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "status": "dependencies_ready",
-    "directx": "verified_x86_x64",
-    "netfx3": "Enabled",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "play_tested": false,
-    "samp_installed": false,
-    "gta_installed": false,
-    "directplay": "Enabled"
-  },
-  "game_environment": {
-    "play_tested": false,
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "windows_server": true,
-    "runner": "windows-2022",
-    "hypervisor_present": true
-  },
-  "games": {
-    "samp": {
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "status": "dependencies_ready",
-      "gta_installed": false,
-      "samp_installed": false,
-      "game_dir": null
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
+      "hostname": "rdpfree-2",
+      "magicdns": "rdpfree-2.tail5c6ba5.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     }
   },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-15T11:04:01.6554396Z",
-  "stopped_at": "2026-10-15T11:08:35Z"
+  "media": {
+    "microphone": "rdp_capture_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "audio_output": "rdp_playback_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon"
+  }
 }
